@@ -33,4 +33,7 @@ export default async function migrations(request, response) {
     await dbClient.end();
     response.status(statusResponse).json(migratedMigrations);
   }
+
+  await dbClient.end();
+  response.status(405);
 }
