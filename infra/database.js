@@ -27,10 +27,12 @@ async function getNewClient() {
   return client;
 }
 
-export default {
+const database = {
   query: query, // como os nomes são iguais, daria pra simplificar e tirar tudo depois do :
   getNewClient: getNewClient,
 };
+
+export default database;
 
 function getSSLValues() {
   if (process.env.POSTGRES_CA) {
