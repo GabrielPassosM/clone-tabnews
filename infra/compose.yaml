@@ -1,7 +1,7 @@
 services:
   database:
-    container_name: "postgres-dev"
-    image: "postgres:16.0-alpine3.18"
+    container_name: "postgres-dev-tabnews"
+    image: "postgres:17.2-alpine3.20"
     env_file:
       - ../.env.development
     ports:
