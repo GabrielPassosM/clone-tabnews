@@ -1,3 +1,5 @@
 # clone-tabnews
 
-Implementação do https://www.tabnews.com.br
+Implementação do www.tabnews.com.br
+
+Servido em: www.papelitos.net.br
